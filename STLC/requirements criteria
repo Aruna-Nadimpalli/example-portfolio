@@ -1,0 +1,84 @@
+Product rating system.:
+How will the system handle invalid or incomplete ratings, (eg, a rating with out feed back or feed  back with out a rating)?, 
+will the users be able to edit or delete their ratings and feed back after submission? if so, how will this affect the overall rating of the product?
+how will the system handle multiple ratings from the same user on the same product? will it over write previous ratings, or will all ratings be aggregated.the user can 
+give the rating using stars or else in descriptive mannner not exceeding more than 150 characters, 
+
+Test case:
+
+
+
+Age verification for alcoholic products.: 
+what measures are in place to present users from by passing age verification(eg. giving false age as input?)
+Is the age verification process required everytime a user navigates to the alcoholic products section, or is it a one time verification stored in the user's
+account?, what happens if a user does not meet the age requirement? will they deny from browsing or purchasing other products in the same sssion. the user must prove
+that he is 18+ by providing his birth datails in the format DD/MM/YYYY.
+
+TEST CASE:
+Equivalence partioning:
+Baesd on the given age by users , you divide the data in to groups, such as those who are qualified to  login and access the products, and to whom those are not qualified
+to login and access the products.
+BOUNDARY VALUE ANALYSIS:
+Here you can test values at the edges of input ranges to find errors at the boundaries
+eg.:
+For an age input that accepts values from 18 .
+you can choose 3 boundary values to test, so that you have 3 test cases such as
+17 (just below)
+18(at the boundary)
+19(just above)
+
+DECISION TABLE TESTING:
+Use this table to decide whether a person has access to alcoholic products or not.
+
+
+
+
+
+
+
+
+
+
+
+
+Shipping cost changes:
+How is the free shipping threshold amount calculated (eg. before or after discounts, taxes,?)
+will there be clear messaging in th cart or checkout process informing users how much more they need to spend to qualify for free shipping?
+Are there any exceptions or exclusions to the free shipping offer, such as certain regions or products that always incur shipping fees?
+
+EQUIVALENCE PARTIONING:
+classify the products those are classified for free shipping based on discount,and for the products free shipping is not applicable.
+BOUNDARY VALUE ANALYSIS:
+you can classify the products based on discount captive amount for eg. products can be shipped if the price is more than 50 euro
+here you can classify the products such as
+49 euro(just below the 50 euro)
+50 euro(at the boundary)
+51 euro ( just above the boundary)
+
+DECISION TABLE TESTING: Here you can classify the products whether they can be shipped for free or not
+though the amount criteria can fullfill( such as 50 euro) but the product may occupy large area in that case decision to be taken whether the product 
+can be shipped for free or not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
